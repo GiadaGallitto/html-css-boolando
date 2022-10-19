@@ -79,13 +79,12 @@ main{
 article{
     height: 30rem;
     flex-basis: calc((100% / 3) - 1rem);
-    border: 1px solid black;
     margin: 1.5rem 1rem 1.5rem 0;
 }
 
 .box-image{
     height: 85%;
-    background-color: #efefef;
+    background-color: #e8e8e8;
     position: relative;
 }
 
@@ -117,6 +116,36 @@ article{
 
 #pic-6{
     background-image: url(../img/6.webp);
+}
+
+article:hover .box-image{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+article:hover #pic-1{
+    background-image: url(../img/1b.webp);
+}
+
+article:hover #pic-2{
+    background-image: url(../img/2b.webp);
+}
+
+article:hover #pic-3{
+    background-image: url(../img/3b.webp);
+}
+
+article:hover #pic-4{
+    background-image: url(../img/4b.webp);
+}
+
+article:hover #pic-5{
+    background-image: url(../img/5b.webp);
+}
+
+article:hover #pic-6{
+    background-image: url(../img/6b.webp);
 }
 
 .colored-box{
