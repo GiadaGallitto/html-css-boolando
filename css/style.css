@@ -27,6 +27,7 @@ header{
     background-color: #ff6900;
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 
 nav{
@@ -84,29 +85,26 @@ article{
 
 .box-image{
     height: 85%;
+    background-color: #efefef;
+    position: relative;
+}
+
+.row .box-image{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #pic-1{
     background-image: url(../img/1.webp);
-    background-size: contain;
-    background-position: center;
 }
 
 #pic-2{
     background-image: url(../img/2.webp);
-    background-size: cover;
-    background-position: center top;
 }
 
 #pic-3{
     background-image: url(../img/3.webp);
-    background-size: cover;
-    background-position: center;
-}
-
-.second-row .box-image{
-    background-size: contain;
-    background-position: center;
 }
 
 #pic-4{
@@ -119,6 +117,30 @@ article{
 
 #pic-6{
     background-image: url(../img/6.webp);
+}
+
+.colored-box{
+    font-size: 0.8rem;
+    color: white;
+    padding: 0.3rem;
+    position: absolute;
+    bottom: 1.3rem;
+}
+
+.discount{
+    background-color: red;
+    z-index: 1;
+}
+
+.sostenibility{
+    background-color: green;
+    position: absolute;
+    left: 3rem;
+}
+
+span#only-green{
+    position: absolute;
+    left: 0;
 }
 
 .description{
