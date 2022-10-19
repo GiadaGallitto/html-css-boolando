@@ -71,3 +71,25 @@ article{
     background-color: aquamarine;
     height: 15%;
 }
+
+footer{
+    background-color: #1a1a1a;
+    height: 15.5rem
+}
+
+hr{
+    color: white;
+}
+
+section.upper-footer{
+    margin: 0 auto;
+    height: 7.5rem;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+section.under-footer{
+    height: 8rem;
+}
