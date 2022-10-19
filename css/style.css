@@ -64,34 +64,88 @@ nav #icons-nav{
     align-items: center;
 }
 
-span{
+header span{
     color: white;
     font-size: 1.5rem;
-    padding-left: 0.3rem;
+    padding-left: 1rem;
 }
 
 main{
     padding-left: 1rem;
     margin: 8rem auto;
-    background-color: rgb(198, 158, 235);
 }
 
 article{
     height: 30rem;
     flex-basis: calc((100% / 3) - 1rem);
     border: 1px solid black;
-    background-color: rgb(11, 148, 148);
     margin: 1.5rem 1rem 1.5rem 0;
 }
 
 .box-image{
-    background-color: royalblue;
     height: 85%;
 }
 
+#pic-1{
+    background-image: url(../img/1.webp);
+    background-size: contain;
+    background-position: center;
+}
+
+#pic-2{
+    background-image: url(../img/2.webp);
+    background-size: cover;
+    background-position: center top;
+}
+
+#pic-3{
+    background-image: url(../img/3.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.second-row .box-image{
+    background-size: contain;
+    background-position: center;
+}
+
+#pic-4{
+    background-image: url(../img/4.webp);
+}
+
+#pic-5{
+    background-image: url(../img/5.webp);
+}
+
+#pic-6{
+    background-image: url(../img/6.webp);
+}
+
 .description{
-    background-color: aquamarine;
     height: 15%;
+    padding-top: 0.5rem;
+}
+
+h5{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+article p.prices{
+    font-size: 0.75rem;
+}
+
+article p.brand{
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+
+.description .price{
+    color: red;
+}
+
+.description .last-price{
+    text-decoration: line-through;
 }
 
 footer{
