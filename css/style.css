@@ -184,6 +184,10 @@ span#only-green{
     top: 1rem;
 }
 
+.heart:hover{
+    color: red;
+}
+
 .description{
     height: 15%;
     padding-top: 0.5rem;
