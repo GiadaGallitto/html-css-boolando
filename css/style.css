@@ -12,7 +12,35 @@
     position: relative;
 }
 
-nav{
+header{
     height: 4rem;
     background-color: #ff6900;
+}
+
+nav{
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+nav>div{
+    flex-basis: calc(100% / 3);
+    border: 1px solid black;
+}
+
+#menu-nav ul{
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav #logo{
+    justify-content: center;
+    align-items: center;
+}
+
+nav #icons-nav{
+    justify-content: flex-end;
+    align-items: center;
 }
