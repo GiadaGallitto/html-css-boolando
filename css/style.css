@@ -30,6 +30,16 @@ header{
     z-index: 2;
 }
 
+main{
+    padding-left: 1rem;
+    margin: 8rem auto;
+}
+
+footer{
+    background-color: #1a1a1a;
+    height: 15.5rem
+}
+
 nav{
     height: 100%;
     margin: 0 auto;
@@ -71,11 +81,6 @@ header span{
     padding-left: 1rem;
 }
 
-main{
-    padding-left: 1rem;
-    margin: 8rem auto;
-}
-
 article{
     height: 30rem;
     flex-basis: calc((100% / 3) - 1rem);
@@ -85,7 +90,6 @@ article{
 .box-image{
     height: 85%;
     background-color: #e8e8e8;
-    position: relative;
 }
 
 .row .box-image{
@@ -215,11 +219,6 @@ article p.brand{
     text-decoration: line-through;
 }
 
-footer{
-    background-color: #1a1a1a;
-    height: 15.5rem
-}
-
 hr{
     color: white;
 }
@@ -237,6 +236,7 @@ section.upper-footer{
     display: inline-block;
     margin-top: 0.8rem;
     font-weight: lighter;
+    padding-right: 0.5rem;
 }
 
 .social p{
