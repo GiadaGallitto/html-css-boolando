@@ -200,6 +200,20 @@ section.upper-footer{
     color: white;
 }
 
+.caption p{
+    display: inline-block;
+    margin-top: 0.8rem;
+    font-weight: lighter;
+}
+
+.social p{
+    margin-bottom: 0.6rem;
+}
+
+.social span{
+    padding-right: 0.7rem;
+}
+
 section.under-footer{
     height: 8rem;
 }
