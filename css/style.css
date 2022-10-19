@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 .flex-container{
     display: flex;
 }
@@ -18,17 +23,20 @@ nav, main{
 
 header{
     height: 4rem;
+    width: 100%;
     background-color: #ff6900;
+    position: fixed;
+    top: 0;
 }
 
 nav{
     height: 100%;
     margin: 0 auto;
+    color: white;
 }
 
 nav>div{
     flex-basis: calc(100% / 3);
-    border: 1px solid black;
 }
 
 #menu-nav ul{
@@ -38,9 +46,17 @@ nav>div{
     align-items: center;
 }
 
+ul li{
+    padding: 0 0.3rem;
+}
+
 nav #logo{
     justify-content: center;
     align-items: center;
+}
+
+#logo img{
+    height: 50%;
 }
 
 nav #icons-nav{
@@ -48,9 +64,15 @@ nav #icons-nav{
     align-items: center;
 }
 
+span{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 0.3rem;
+}
+
 main{
     padding-left: 1rem;
-    margin: 4rem auto;
+    margin: 8rem auto;
     background-color: rgb(198, 158, 235);
 }
 
